@@ -43,8 +43,9 @@ $fakePosts = [
 
 <body>
     <main class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <article style="padding: 2rem;">
+        <article style="padding: 2rem; min-width: 50vw">
             <h1>Welcome</h1>
+            <a href="create.php" role="button">Create one</a>
             <table>
                 <thead>
                     <tr>

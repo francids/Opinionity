@@ -11,12 +11,11 @@
 <body>
     <main class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
         <article style="padding: 2rem; min-width: 50vw">
-            <h1>Log in</h1>
-            <form action="auth.php" method="post">
+            <h1>Create one</h1>
+            <form>
                 <fieldset>
-                    <input name="email" placeholder="Email" aria-label="Email" autocomplete="email" required />
-                    <input type="password" name="password" placeholder="Password" aria-label="Password"
-                        autocomplete="current-password" required />
+                    <input name="title" placeholder="Title" aria-label="Email" required />
+                    <textarea name="body" placeholder="Body" aria-label="Body" required></textarea>
                     <input type="submit" value="Log in" />
                 </fieldset>
             </form>

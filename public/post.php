@@ -22,7 +22,7 @@ $post = [
 
 <body>
     <main class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <article style="padding: 2rem;">
+        <article style="padding: 2rem; min-width: 50vw">
             <h1><?php echo $post["title"] ?></h1>
             <p><?php echo $post["body"] ?></p>
         </article>

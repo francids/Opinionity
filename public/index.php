@@ -10,7 +10,7 @@
 
 <body>
     <main class="container" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <article style="padding: 2rem;">
+        <article style="padding: 2rem; min-width: 50vw">
             <h1>Opinionity</h1>
             <p>
                 Only opinions, debates and points of view shared in a clean, fast and content-focused space.
